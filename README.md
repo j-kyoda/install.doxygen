@@ -1,3 +1,2 @@
 # install.doxygen
-doxygen install script for CentOS7.
-
+doxygen install script for CentOS8.

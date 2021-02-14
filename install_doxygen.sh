@@ -1,12 +1,13 @@
 #!/bin/bash
 # -*- coding: utf-8 -*-
 
-# required packages(CentOS7)
-yum -y install gcc-c++
-yum -y install git
-yum -y install cmake
-yum -y install flex
-yum -y install bison
+# required packages(CentOS8)
+dnf -y install gcc-c++
+dnf -y install git
+dnf -y install make
+dnf -y install cmake
+dnf -y install flex
+dnf -y install bison
 
 # install doxygen
 cd /usr/local/src
